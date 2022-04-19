@@ -5,3 +5,26 @@
 .logo{
     width: 60px;
 }
+.returnal_logo{
+    width: 200px;
+}
+.jumbo{
+    min-height: 30vh;
+    object-fit: cover;
+}
+.games > * > *{
+    border-radius: 20px;
+}
+.games > * > *:hover{
+    border: 5px solid #0065ca;
+    position: relative;
+    bottom: 25px;
+    /*SMOOTH ANIMATION */
+}
+/* BUTTONS */
+.btn_buy_now{
+    width: 30%;
+    background-color: #d14d24;
+    color: white;
+    border: none;
+}
