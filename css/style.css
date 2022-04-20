@@ -14,11 +14,14 @@
 }
 .games > * > *{
     border-radius: 20px;
+    border: 5px solid transparent;
+    padding: 5px;
 }
 .games > * > *:hover{
     border: 5px solid #0065ca;
     position: relative;
     bottom: 25px;
+    padding: 5px;
     /*SMOOTH ANIMATION */
 }
 /* BUTTONS */
@@ -27,4 +30,28 @@
     background-color: #d14d24;
     color: white;
     border: none;
+}
+.btn_more_info{
+    width: 200px;
+    background-color: #0065ca;
+    color: white;
+    border: none;
+}
+/* TEXT */
+.txt_blue{
+    color: #0065ca;
+}
+.txt_grey{
+    color: #7b7b7b;
+}
+/* MISC */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+main{
+    padding-top: 100px;
 }
