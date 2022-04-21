@@ -12,18 +12,6 @@
     min-height: 30vh;
     object-fit: cover;
 }
-.games > * > *{
-    border-radius: 20px;
-    border: 5px solid transparent;
-    padding: 5px;
-}
-.games > * > *:hover{
-    border: 5px solid #0065ca;
-    position: relative;
-    bottom: 25px;
-    padding: 5px;
-    /*SMOOTH ANIMATION */
-}
 /* BUTTONS */
 .btn_buy_now{
     width: 30%;
@@ -54,4 +42,28 @@ header{
 }
 main{
     padding-top: 100px;
+}
+/* EFFECTS */
+.games > * > *{
+    border-radius: 20px;
+    border: 5px solid transparent;
+    padding: 5px;
+}
+.games > * > *:hover{
+    border: 5px solid #0065ca;
+    position: relative;
+    bottom: 25px;
+    padding: 5px;
+    /*SMOOTH ANIMATION */
+}
+.products > *{
+    border-bottom: 5px solid transparent;
+    padding: 5px;
+}
+.products > *:hover, .active{
+    border-bottom: 5px solid #0065ca;
+    position: relative;
+    bottom: 25px;
+    padding: 5px;
+    /*SMOOTH ANIMATION */
 }
