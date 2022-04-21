@@ -5,11 +5,11 @@
 .logo{
     width: 60px;
 }
-.returnal_logo{
+.returnal_logo, .it_takes_two_logo{
     width: 200px;
 }
 .jumbo{
-    min-height: 30vh;
+    min-height:40vh;
     object-fit: cover;
 }
 /* BUTTONS */
@@ -66,4 +66,7 @@ main{
     bottom: 25px;
     padding: 5px;
     /*SMOOTH ANIMATION */
+}
+.new_releases > * > * > img{
+    border-radius: 20px;
 }
