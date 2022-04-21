@@ -26,7 +26,11 @@
     object-fit: fill;
 }
 .jumbo{
-    min-height:40vh;
+    min-height: 40vh;
+    object-fit: cover;
+}
+.jumbo_itt{
+    min-height: 50vh;
     object-fit: cover;
 }
 /* BUTTONS */
