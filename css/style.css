@@ -1,20 +1,24 @@
 /* BACKGROUNDS */
 .bg_ps_plus{
     background-color: #bebcbb;
-
 }
 .bg_ps_now{
     background-color: #161c3b;
-
+}
+.bg_footer{
+    background-color: #00439c;
 }
 /* IMAGES */
 #sony{
     width: 100px;
 }
+.logo_nav{
+    width: 20px;
+}
 .logo{
     width: 60px;
 }
-.returnal_logo, .it_takes_two_logo, .ps_plus_logo{
+.returnal_logo, .it_takes_two_logo, .ps_plus_logo, .sie_logo{
     width: 200px;
 }
 .ps_plus_games{
@@ -27,7 +31,7 @@
 }
 /* BUTTONS */
 .btn_buy_now{
-    width: 30%;
+    width: 120px;
     background-color: #d14d24;
     color: white;
     border: none;
@@ -64,16 +68,32 @@ header{
 main{
     padding-top: 100px;
 }
+ul{
+    list-style-type: none;
+}
 /* EFFECTS */
+.btn:hover{
+    box-shadow: 0 0 1px 2px white inset;
+    border: 3px solid inherit;
+    color: inherit;
+}
+.btn{
+    border: 3px solid transparent;
+}
+li > a:hover{
+    color: rgba(0, 0, 0, 1);
+}
 .games > * > *{
     border-radius: 20px;
     border: 5px solid transparent;
     padding: 5px;
 }
-.games > * > *:hover{
+.games > * > *:hover, .selected{
     border: 5px solid #0065ca;
+}
+.games > * > *:hover{
     position: relative;
-    bottom: 25px;
+    bottom: 15px;
     padding: 5px;
     /*SMOOTH ANIMATION */
 }
