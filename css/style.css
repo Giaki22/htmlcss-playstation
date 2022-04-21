@@ -25,6 +25,9 @@
     color: white;
     border: none;
 }
+.btn_small{
+    width: 130px;
+}
 /* TEXT */
 .txt_blue{
     color: #0065ca;
