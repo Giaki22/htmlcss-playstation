@@ -5,8 +5,12 @@
 .logo{
     width: 60px;
 }
-.returnal_logo, .it_takes_two_logo{
+.returnal_logo, .it_takes_two_logo, .ps_plus_logo{
     width: 200px;
+}
+.ps_plus_games{
+    height: 100%;
+    object-fit: fill;
 }
 .jumbo{
     min-height:40vh;
@@ -28,8 +32,13 @@
 .btn_small{
     width: 130px;
 }
+.btn_ps_plus{
+    border: none;
+    color: #0065ca;
+    background-color: #d9dadc;
+}
 /* TEXT */
-.txt_blue{
+.txt_blu{
     color: #0065ca;
 }
 .txt_grey{
