@@ -91,26 +91,49 @@ li > a:hover{
     border-radius: 20px;
     border: 5px solid transparent;
     padding: 5px;
+    transition: transform .5s;
 }
 .games > * > *:hover, .selected{
     border: 5px solid #0065ca;
+    box-shadow: 10px 10px 30px black;
+    transform: translatey(-15px);
+    cursor: pointer;
 }
 .games > * > *:hover{
-    position: relative;
-    bottom: 15px;
+    transform: translatey(-15px);
     padding: 5px;
-    /*SMOOTH ANIMATION */
+    box-shadow: 10px 10px 30px black;
+    cursor: pointer;
+}
+.new_game, .img_anim{
+    box-shadow: none;
+    transition: transform .5s;
+}
+.new_game:hover, .img_anim:hover{
+    transform: scale(110%);
+    transition: transform .5s;
+    cursor: pointer;
+}
+.new_game>img, .img_anim>img{
+    box-shadow: 10px 10px 30px transparent;
+    transition: box-shadow .5s;
+}
+.new_game:hover>img, .img_anim:hover>img{
+    box-shadow: 10px 10px 30px black;
+    cursor: pointer;
 }
 .products > *{
     border-bottom: 5px solid transparent;
     padding: 5px;
+    opacity: .5;
+    transition: transform .2s, border .2s, opacity .2s;
 }
 .products > *:hover, .active{
     border-bottom: 5px solid #0065ca;
-    position: relative;
-    bottom: 25px;
+    transform: translatey(-15px);
     padding: 5px;
-    /*SMOOTH ANIMATION */
+    opacity: 1;
+    cursor: pointer;
 }
 .new_releases > * > * > img{
     border-radius: 20px;
